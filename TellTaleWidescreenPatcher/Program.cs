@@ -3,11 +3,8 @@ using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
 using System.Windows.Forms;
-
 using PatternFinder;
-
 using SharpDisasm;
-
 using Steamless.API.Model;
 using Steamless.API.Services;
 

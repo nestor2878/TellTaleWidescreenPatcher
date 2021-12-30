@@ -146,7 +146,7 @@
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>if $(ConfigurationName) == Release (
-"$(SolutionDir)packages\ILRepack.2.0.16\tools\ILRepack.exe" /wildcards /out:$(AssemblyName).exe $(AssemblyName).exe *.dll
+"$(SolutionDir)packages\ILRepack.2.0.18\tools\ILRepack.exe" /wildcards /out:$(AssemblyName).exe $(AssemblyName).exe *.dll
 del *.dll $(AssemblyName).exe.config $(AssemblyName).pdb
 )
 if $(ConfigurationName) == NoEmbeds (

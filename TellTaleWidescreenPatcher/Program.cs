@@ -185,7 +185,7 @@ namespace TellTaleWidescreenPatcher
                         hexRatio = new byte[] { 0x39, 0x8E, 0x63, 0x40 };
                         break;
                     default: 
-                        throw new ArgumentException($"Unknown resolution {Form1.GetResolution()}");
+                        throw new ArgumentOutOfRangeException($"Unknown resolution {Form1.GetResolution()}");
                 }
 
                 if (fixOffset > 0)

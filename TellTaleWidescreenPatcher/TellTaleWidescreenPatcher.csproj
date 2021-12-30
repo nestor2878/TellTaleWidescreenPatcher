@@ -54,12 +54,6 @@
     <RunCodeAnalysis>false</RunCodeAnalysis>
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'NoEmbeds|AnyCPU'">
-    <OutputPath>bin\NoEmbeds\</OutputPath>
-    <PlatformTarget>x86</PlatformTarget>
-    <Optimize>true</Optimize>
-    <DefineConstants>TRACE</DefineConstants>
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="SharpDisasm">
       <HintPath>precompiled\SharpDisasm.dll</HintPath>
